@@ -1,0 +1,14 @@
+{
+  "name": "QR-code-bot",
+  "env": {
+    "TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": ""
+}
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
