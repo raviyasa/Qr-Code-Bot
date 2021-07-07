@@ -1,5 +1,12 @@
 ## Qr Code Bot
 ### A  telegram bot to generate qr code
+
+
+## Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/samadii/Qr-Code-Bot)
+
+
 ## Dependencies
 - pyqrcode\
   ```pip3 install pyqrcode```
