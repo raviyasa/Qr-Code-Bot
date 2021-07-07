@@ -50,14 +50,13 @@ def msg(update: Update, context: CallbackContext) -> None:
 
 def main():
     updater = Updater(TOKEN, use_context=True)
-    PORT = int(os.environ.get('PORT', '8443'))
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("help", help_command))
     dp.add_handler(MessageHandler(Filters.text & ~Filters.command, msg))
     # Start The bot
     
-    updater.start.polling()
+    updater.start_polling()
     updater.idle()
 
 
