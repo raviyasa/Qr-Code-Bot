@@ -9,15 +9,22 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
 )
 start_msg = '''
-<b>HELLO THERE </b>👋👋
-<i>Welcome TO Qr code generator Bot</i>
-<i>Send Me any Email ID,Text,url,spotify song link etc I will generate a qr code for it</i>
+<b>HELLO  </b>👋👋
+<i>Welcome TO Qr code generatorX Bot</i>
+<i>Send Me any Email ID,Text,url,spotify song link etc and see the majic 😊🙈</i>
 <b>Direct Media files Are not supported</b>
-<i>How ever U can send a direct link to those files</i>
+<i>How ever you can send a direct link to those files 😘</i>
+<b>Made By <a href="">Ravidu Yasas</a></b>
+<b>By <a href="https://t.me/media_bot_updates">Bot Shadow</a></b>
 '''
 help_msg = '''
 <i> Just Send me any Email Id,Text ,url etc(no media files...)</i>
 <i>I will generate a Qr Code for it and send it to you</i>
+
+<b>Any Bug Report Us : <a href="">Contact Bot</a></b>
+
+<b>Made By <a href="">Ravidu Yasas</a></b>
+<b>By <a href="https://t.me/media_bot_updates">Bot Shadow</a></b>
 '''
 
 
